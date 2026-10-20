@@ -1,0 +1,48 @@
+How Java Works
+
+Introduction
+
+Java is a high-level programming language. Java source code is compiled into bytecode, which the Java Virtual Machine (JVM) executes.
+
+Execution Process
+
+1. Write source code: Create a file such as "Main.java".
+2. Compile: The Java compiler ("javac") compiles the source code.
+3. Generate bytecode: Compilation produces "Main.class".
+4. Execute: The JVM loads and executes the bytecode.
+5. Get output: The program displays its result.
+
+Flow
+
+"Main.java" → "javac" → "Main.class" → JVM → Output
+
+Example
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello, Java!");
+    }
+}
+
+Output
+
+Hello, Java!
+
+Important Terms
+
+- JDK: Java Development Kit.
+- JRE: Java Runtime Environment (traditional runtime concept).
+- JVM: Java Virtual Machine.
+- Bytecode: Intermediate instructions stored in ".class" files.
+- JIT: Just-In-Time compiler, which can compile frequently executed bytecode into native machine code.
+
+Key Takeaway
+
+Java bytecode can run on different operating systems when a compatible JVM is available. This is the idea behind Java's platform independence.
+
+What I Learned
+
+- How Java source code is compiled.
+- What bytecode is.
+- How the JVM executes Java programs.
+- The difference between JDK, JRE, and JVM.
